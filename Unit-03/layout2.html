@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latout2 CSS</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            text-align: center;
+        }
+        html,*{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .content{
+            height:600px;
+            width:400px;
+            background-color:beige;
+            display:flex;
+            flex-direction: column;
+            margin:10px;
+            
+        }
+        header,nav,footer{
+            height:100px;
+            width:400px;
+            background-color: cyan;
+            border:2px solid black;
+            border-radius: 5px;
+            margin:5px;
+        }
+        .box{
+           height:300px;
+           width:400px;
+           display: flex;
+           flex-direction: row;
+           margin:5px;
+           
+        }
+        section{
+            height:150px;
+            width:200px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 5px;
+            
+        }
+        article{
+            height:150px;
+            width:200px;
+            background-color: darkmagenta;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 5px;
+           
+        }
+        .box2{
+            height:300px;
+            width:200px;
+            background-color: darkorange;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main class="content">
+        <header>&lt;header&gt;</header>
+        <nav>&lt;nav&gt;</nav>;
+        <div class="box">
+            <div class="box1">
+                <section>&lt;section&gt;</section>
+                <article>&lt;article&gt;</article>
+            </div>
+            <div class="box2">
+                <aside>&lt;aside&gt;</aside>
+            </div>
+        </div>
+        <footer>&lt;footer&gt;</footer>
+    </main>
+    
+</body>
+</html>
