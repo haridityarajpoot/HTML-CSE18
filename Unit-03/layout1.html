@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Layout 1</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            text-align:center;
+        }
+         html,*{
+            padding:0;
+            
+         }
+         main{
+            width:1000px;
+            height:1000px;
+            background-color:pink;
+            margin:0 auto;
+            display:flex;
+            flex-direction:column;
+            gap:10px;
+         }
+         nav,header,footer{
+            background-color:#ccc;height:144px;text-align:center;line-height: 140px;
+         }
+         section{
+            height: 300px;
+            background-color: #ccc;
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+         }
+         .box{
+            flex-grow:1;
+            background-color: aqua;
+            line-height:300px;
+         }
+         article{
+            background-color: blue;
+         }
+
+
+    </style>
+</head>
+<body>
+    <main>
+     <nav><h2>Navigation</h2></nav>
+     <header><h2>Header</h2></header>
+     <article><h2>Intro text Area</h2></article>
+     <section>
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+     </section>
+     <footer><h2>footer</h2></footer>
+
+
+    </main>
+    
+</body>
+</html>
