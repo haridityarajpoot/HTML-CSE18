@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layou 3t</title>
+    <style>
+         html,*{
+            margin: 0;
+           padding: 0;
+            box-sizing: border-box;
+         }
+
+         .container{
+            width:600px;
+            height:800px;
+            background-color: darkgreen;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+         }
+         header,nav,section,aside,footer{
+            width:580px;
+            height:100px;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            margin:10px;
+         }
+         .box{
+            width:580px;
+            height:300px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            margin-left:10px;
+         }
+         .box1{
+            width:560px;
+            height:75px;
+            background-color:aliceblue;
+            margin:10px;
+         }
+         .box2{
+            width: 560px;
+            height:200px;
+            margin-left: 10px;
+            background-color: aliceblue;
+         }
+
+
+
+
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header>Page Header</header>
+        <nav>Nav</nav>
+        <div  class="box">
+            Article
+            <div class="box1">Article Header</div>
+            <div class="box2">Main</div>
+        </div>
+        <section>Section</section>
+        <Aside>Aside</Aside>
+        <footer>Footer</footer>
+    </main>
+    
+</body>
+</html>
