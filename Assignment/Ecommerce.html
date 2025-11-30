@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <style>
+    html,*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        width:100%;
+        height:90vh;
+        background-color: #f0f0f0;
+        display:flex;
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+        background-color:black;
+        color:white;
+        margin:10px;
+    }
+    .products{
+        width:350px;
+        height:500px;
+        border:2px solid black;
+        border-radius: 6px;
+    }
+    img{
+        width:300px;
+        height:300px;
+        border:2px solid black;
+        margin:20px;
+    }
+    h2,p{
+        margin-left:20px;
+    }
+    #rs{
+        color: green;
+        font-size:20px;
+    }
+    #buy{
+        margin-left: 20px;
+        width:310px;
+        height:30px;
+        background-color: blue;
+        border:2px white solid;
+        border-radius:2px;
+    }
+</style>
+</head>
+<body>
+    <h1>ShopEasy</h1>
+    <main class="container">
+        <div class="products">
+               <img src="t shirt image.webp">
+               <h2>Classic Cotton T-shirt</h2>
+               <p>Soft,breathable cotton.Regular fit.Available in multiple colors.</p>
+               <br>
+               <p id="rs">&#8377 799</p>
+               <input id="buy" type="button" name="Add to Cart" value="Add to Cart">
+        </div>  
+      </main>
+    
+</body>
+</html>
